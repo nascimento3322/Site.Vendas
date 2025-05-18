@@ -1,0 +1,58 @@
+body {
+    background-image: url(fundo\ copy.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: black; /* ou outra cor de fundo */
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+  margin-top: 50px;
+  text-shadow: 1px 1px 2px white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;  
+  margin-top: 25px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+li {
+  margin: 10px 0; 
+  margin-bottom: 25px; 
+}
+
+a {
+ color: white;
+ text-decoration: none;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+ul li a {
+  font-size: 24px; /* Aumente o valor se quiser ainda maior */
+  font-weight: bold; /* Deixa a fonte mais forte */
+  color: white; /* Ajuste conforme seu fundo */
+  text-shadow: 1px 1px 2px black; /* Opcional, melhora a leitura sobre imagens */
+}
+
